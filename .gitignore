@@ -1,0 +1,12 @@
+# Logs
+logs
+*.log
+
+#Store
+.DS_Store
+
+# Dependency directory
+node_modules/
+
+# src
+assets/dist/
