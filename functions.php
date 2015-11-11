@@ -20,7 +20,7 @@ function sn_enqueue_styles() {
 *  --------------------------------- */
 function sn_enqueue_scripts() {
 
-	wp_register_script( 'scripts', SN_THEME_PATH . "/assets/dist/index.js", array(), null, true );
+	wp_register_script( 'scripts', SN_THEME_PATH . "/assets/dist/index.js", array(), null, false );
 
 	wp_enqueue_script( 'scripts' );
 }
